@@ -1,0 +1,224 @@
+body {
+	margin: 0px;
+  background-color: #FEFCBF;
+  font-family: 'Hind', sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;   /* обязательная отмена обтекания */
+}
+
+.page_wrapper {     /* wrapper - обложка */
+  width: 960px;     /* средняя контентная область */
+  margin: 0 auto;
+}
+
+.page_wrapper .white {
+  background-color: white;
+  padding: 30px 30px 10px 30px;
+}
+
+.page_wrapper .black {
+  background-color: #086FA1;
+  padding: 10px 30px 30px 30px;
+
+}
+
+.page_wrapper .white .head {
+  font-size: 30px;
+  color: #E4070C;
+}
+
+.page_wrapper .white .menu{
+  margin-top: 30px;
+  text-align: right;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.page_wrapper .white .menu a {
+  padding: 0px 10px;
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page_wrapper .white .menu a:hover {
+  color: #E4070C;
+}
+
+.page_wrapper .white .menu a.active_link {
+/*  font-weight: bold;*/
+}
+
+.page_wrapper .white .title {
+  margin: 30px 0px;
+  border-bottom: 2px solid grey;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.page_wrapper .white .content {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.page_wrapper .white .content .image {
+  float: left;
+  width: 40%;
+  padding: 10px 20px 0px 0px;
+  box-sizing: border-box;
+}
+
+.page_wrapper .white .content .image img {
+  width: 100%;
+}
+
+.page_wrapper .white .content .text {
+  float: left;
+  width: 60%;
+  font-size: 15px;
+
+}
+
+.page_wrapper .white .content .text .few_words {
+  background-color: #086FA1;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  width: 45%;
+}
+
+.page_wrapper .white .content .text .quote {
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.page_wrapper .white .content .text .quote p:first-child {
+  font-style: italic;
+}
+
+.page_wrapper .white .content .text .quote p:last-child {
+  text-align: right;
+}
+
+.page_wrapper .white .skills {
+  padding: 30px;
+}
+
+.page_wrapper .white .skills .my_skills, .can_i_do {
+  float: left;
+  width: 50%;
+  padding-right: 40px; 
+}
+
+.page_wrapper .white .skills .my_skills .windows,
+.page_wrapper .white .skills .my_skills .office,
+.page_wrapper .white .skills .my_skills .html,
+.page_wrapper .white .skills .my_skills .css,
+.page_wrapper .white .skills .my_skills .javascript {
+  background-color: lightgrey;
+  margin-bottom: 3px;
+  font-style: italic;
+  padding: 5px 0px 5px 0px;
+}
+
+.page_wrapper .white .skills .my_skills .windows {
+  width: 80%;
+
+}
+.page_wrapper .white .skills .my_skills .office {
+  width: 70%;
+
+}
+.page_wrapper .white .skills .my_skills .html {
+  width: 60%;
+
+}
+.page_wrapper .white .skills .my_skills .css {
+  width: 50%;
+
+}
+
+.page_wrapper .white .skills .my_skills .javascript {
+  width: 40%;
+
+}
+
+
+.page_wrapper .white .skills .my_skills .line {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.page_wrapper .white .skills .my_skills .line div {
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  text-align: right;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.page_wrapper .white .skills .my_skills .line div.clear {
+  border: none;
+  width: 100%;
+}
+
+.page_wrapper .white .skills .my_skills .my_skills_title,
+.page_wrapper .white .skills .can_i_do .can_i_do_title {
+  background-color: #086FA1;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.page_wrapper .white .skills .can_i_do .can_i_do_list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.page_wrapper .white .skills .can_i_do .can_i_do_list li {
+  margin-bottom: 10px;
+}
+
+.page_wrapper .white .skills .can_i_do .can_i_do_list li:before {
+  content: "\2714";
+}
+
+.page_wrapper .black .footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.page_wrapper .black .footer .footer_cols {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.page_wrapper .black .footer .footer_cols .address,
+.page_wrapper .black .footer .footer_cols .contacts,
+.page_wrapper .black .footer .footer_cols .social_link {
+  float: left;
+  width: 33.3333333%;
+  padding: 30px;
+  color: white;
+}
+
+.page_wrapper .black .footer .footer_menu a {
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+
+.page_wrapper .black .footer .footer_menu a:hover {
+  color: #E4070C;
+}
+
